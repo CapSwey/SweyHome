@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+#footer li a {
+	padding: 0 .5em 1em .5em;
+}
+
+#footer li a:link.email, #footer li a:visited.email { 
+background:url(../images/social_media/email63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:link.facebook, #footer li a:visited.facebook {
+	background:url(../images/social_media/facebook63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:link.twitter, #footer li a:visited.twitter {
+	background:url(../images/social_media/twitter63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:link.linkedin, #footer li a:visited.linkedin {
+	background:url(../images/social_media/linkedin63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:link.flickr, #footer li a:visited.flickr {
+	background:url(../images/social_media/flickr63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:link.pinterest, #footer li a:visited.pinterest { 
+background:url(../images/social_media/pinterest63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:link.instagram, #footer li a:visited.instagram { 
+background:url(../images/social_media/instagram63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:link.twitch, #footer li a:visited.twitch { 
+background:url(../images/social_media/twitch63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:link.youtube, #footer li a:visited.youtube { 
+background:url(../images/social_media/youtube63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+
+
+#footer li a:hover.facebook, #footer li a:active.facebook, #footer li a:focus.facebook {
+	background:url(../images/social_media/facebook63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:hover.twitter, #footer li a:active.twitter, #footer li a:focus.twitter {
+	background:url(../images/social_media/twitter63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:hover.linkedin, #footer li a:active.linkedin, #footer li a:focus.linkedin {
+	background:url(../images/social_media/linkedin63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:hover.email, #footer li a:active.email, #footer li a:focus.email {
+	background:url(../images/social_media/email63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:hover.pinterest, #footer li a:active.pinterest, #footer li a:focus.pinterest {
+	background:url(../images/social_media/pinterest63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:hover.instagram, #footer li a:active.instagram, #footer li a:focus.instagram {
+	background:url(../images/social_media/instagram63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}
+#footer li a:hover.youtube, #footer li a:active.youtube, #footer li a:focus.youtube {
+	background:url(../images/social_media/youtube63.png) no-repeat center center;
+	-webkit-background-size: 32px 32px;
+	-moz-background-size: 32px 32px;
+	background-size: 32px 32px;
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Small Phone */
+@import url("smallphone.css") only screen and (max-width:480px);
+
+/* Phone Portrait */
+@import url("phone.css") only screen and (min-width:481px) and (orientation: portrait);
+
+/* Phone Landscape */
+@import url("phone-landscape.css") only screen and (max-width:1920px) and (orientation: landscape);
+
+/* Tablet */
+@import url("tablet.css") only screen and (min-width:641px); /*481*/
+
+/* Desktop */
+@import url("desktop.css") only screen and (min-width:950px) and (max-width:1800px);
+/* ORIGINAL DESKTOP MINIMAL WIDTH: (min-width:796px) */
+
+/* HD Screen */
+@import url("hd-screen.css") only screen and (min-width:1801px);
+
+/* UHD Screen */
+@import url("uhd-screen.css") only screen and (min-width:1900px);
+
+/* Hi-Res */
+@import url("retina.css") only screen and (-webkit-min-device-pixel-ratio:2), 
+only screen and (-moz-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2);

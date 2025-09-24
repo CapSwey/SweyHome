@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+/* ========================================================================= */
+/* ============================ GENERAL STYLING ============================ */
+/* ========================================================================= */
+
+body, html { 
+	min-height: 100%;
+}
+
+body {
+/* GREY LIGHT THEME */
+background: rgb(125,126,125);
+background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+
+/* GREY DARK THEME */
+/*background: rgb(69,72,77);
+background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );*/
+
+	
+/* AQUA THEME */
+/*background: rgb(0,195,234);
+background: -moz-linear-gradient(top,  rgba(0,195,234,1) 0%, rgba(0,32,102,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(0,195,234,1) 0%,rgba(0,32,102,1) 100%);
+background: linear-gradient(to bottom,  rgba(0,195,234,1) 0%,rgba(0,32,102,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c3ea', endColorstr='#002066',GradientType=0 );*/
+	
+/* AQUA THEME V2 */	
+/*background: rgb(0,215,226);
+background: -moz-linear-gradient(top,  rgba(0,215,226,1) 0%, rgba(0,43,96,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(0,215,226,1) 0%,rgba(0,43,96,1) 100%);
+background: linear-gradient(to bottom,  rgba(0,215,226,1) 0%,rgba(0,43,96,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d7e2', endColorstr='#002b60',GradientType=0 );*/	
+
+/* EASY PURPLE THEME */
+/*background: rgb(96,108,136);
+background: -moz-linear-gradient(top,  rgba(96,108,136,1) 0%, rgba(63,76,107,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%);
+background: linear-gradient(to bottom,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 );*/
+
+/* BLUE THEME */
+/*background: rgb(167,207,223);
+background: -moz-linear-gradient(top,  rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+background: linear-gradient(to bottom,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 );*/	
+
+/* LIGHT BLUE THEME */
+/*background: rgb(167,199,220);
+background: -moz-linear-gradient(top,  rgba(167,199,220,1) 0%, rgba(133,178,211,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%);
+background: linear-gradient(to bottom,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=0 );*/
+
+/* EARTHY THEME */
+/*background: rgb(176,170,152);
+background: -moz-linear-gradient(top,  rgba(176,170,152,1) 4%, rgba(188,183,166,1) 50%, rgba(235,232,223,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(176,170,152,1) 4%,rgba(188,183,166,1) 50%,rgba(235,232,223,1) 100%);
+background: linear-gradient(to bottom,  rgba(176,170,152,1) 4%,rgba(188,183,166,1) 50%,rgba(235,232,223,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0aa98', endColorstr='#ebe8df',GradientType=0 );	
+*/
+
+}
+
+
+
+
+
+#header {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+
+#footer {
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+nav {
+	width: 100%;
+}
+
+/* ========================================================================= */
+/* ============================== DIV STYLING ============================== */
+/* ========================================================================= */
+
+#header {
+	border: none;
+}
+
+#content1, #content2, #content3, #content4, #content5, #content6, #header {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#content1, #content3, #content5 {
+	background-image:url(../images/content_0.50_black.png);
+	border-radius: 1em
+}
+
+#content2, #content4, #content6 {
+	background-image:url(../images/content_0.50_black.png);
+	border-radius: 1em
+}
+
+/* ======================================================================== */
+/* ============================== TYPOGRAPHY ============================== */
+/* ======================================================================== */
+
+h1 {
+	font-family: 'Ubuntu Condensed', Arial Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	margin: 0.5em 0 0 0;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 2px 2px 25px #FFF;
+}
+
+h2 {
+	font-family: 'Ubuntu Condensed', Arial Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.1em;	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	text-align: center;
+}
+
+ #content1 h2, #content3 h2, #content5 h2 {
+	color: #55BFFA;
+}
+
+#content2 h2, #content4 h2, #content6 h2 {
+	color: #81F781;
+}
+
+/* ============================== CONTENT 1 + 3 + 5 ============================== */
+
+#content1 li a:link, #content1 li a:visited, #content3 li a:link, #content3 li a:visited, #content5 li a:link/*, #content5 li a:visited*/ {
+	font-family: 'Ubuntu Condensed', Arial Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: block;
+	line-height: 1.2em;
+	font-size: .9em;
+	text-decoration: none;
+	text-align: center;
+	color: #A4A4A4;
+	padding: .1em 0;
+	margin: 0 2em;
+}
+#content1 li a:hover, #content3 li a:hover, #content5 li a:hover {
+	color: #FFF;
+}
+#content1 li a:active, #content1 li a:focus, #content3 li a:active, #content3 li a:focus, #content5 li a:active, #content5 li a:focus {
+	color: #A4A4A4;
+}
+
+/* ============================== CONTENT 2 + 4 + 6 ============================== */
+
+#content2 li a:link, #content2 li a:visited, #content4 li a:link, #content4 li a:visited, #content6 li a:link/*, #content6 li a:visited*/ {
+	font-family: 'Ubuntu Condensed', Arial Narrow, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: block;
+	line-height: 1.2em;
+	font-size: .9em;
+	text-decoration: none;
+	text-align: center;
+	color: #A4A4A4;
+	padding: .1em 0;
+	margin: 0 2em;
+}
+#content2 li a:hover, #content4 li a:hover, #content6 li a:hover {
+	color: #FFF;
+}
+#content2 li a:active, #content2 li a:focus, #content4 li a:active, #content4 li a:focus, #content6 li a:active, #content6 li a:focus {
+	color: #A4A4A4;
+}
+
+/* ============================================================================ */
+/* ============================== FOOTER STYLING ============================== */
+/* ============================================================================ */
+
+#footer li a:link, #footer li a:active {
+	opacity:0.3;
+	filter:alpha(opacity=30);
+}
+
+#footer li a:hover, #footer li a:focus {
+	opacity:0.8;
+	filter:alpha(opacity=80);
+    -webkit-transition: opacity .6s ease-in;
+    -moz-transition: opacity .6s ease-in;
+    -ms-transition: opacity .6s ease-in;
+    -o-transition: opacity .6s ease-in;
+    transition: opacity .6s ease-in;
+}
+
+/* =========================================================================== */
+/* ============================== OTHER STYLING ============================== */
+/* =========================================================================== */
+
+.black {
+	color: black;
+	font-size: .6em;
+	opacity: 0.25;
+}
+.gray {
+	color: #D8D8D8;
+	font-size: .6em;
+	opacity: 0.40;
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 92.8695%;
+	padding-left: 1.5652%;
+	padding-right: 1.5652%;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#content1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.3146%;
+	display: block;
+}
+#content2 {
+	clear: none;
+	float: left;
+	margin-left: 3.3707%;
+	width: 48.3146%;
+	display: block;
+}
+#content3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.3146%;
+	display: block;
+}
+#content4 {
+	clear: none;
+	float: left;
+	margin-left: 3.3707%;
+	width: 48.3146%;
+	display: block;
+}
+#content5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.3146%;
+	display: block;
+}
+#content6 {
+	clear: none;
+	float: left;
+	margin-left: 3.3707%;
+	width: 48.3146%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#content1, #content2, #content3, #content4, #content5, #content6, #header {
+	padding-bottom: .8em;
+	margin-bottom: 1em;
+}
+
+/* FOOTER NAV STYLING */
+#footer li {
+	display: inline-block;
+}
+
+#footer li a {
+	display: block;
+	height: 32px;
+	width: 32px;
+	padding: 0 .3em .5em;
+}
+
+#footer li a:link.facebook, #footer li a:visited.facebook {
+background:url(../images/social_media/facebook32.png) no-repeat center center;
+}
+#footer li a:link.twitter, #footer li a:visited.twitter {
+background:url(../images/social_media/twitter32.png) no-repeat center center;
+}
+#footer li a:link.linkedin, #footer li a:visited.linkedin {
+background:url(../images/social_media/linkedin32.png) no-repeat center center;
+}
+#footer li a:link.flickr, #footer li a:visited.flickr {
+background:url(../images/social_media/flickr32.png) no-repeat center center;
+}
+#footer li a:link.email, #footer li a:visited.email { 
+background:url(../images/social_media/email32.png) no-repeat center center;
+}
+#footer li a:link.pinterest, #footer li a:visited.pinterest { 
+background:url(../images/social_media/pinterest32.png) no-repeat center center;
+}
+#footer li a:link.instagram, #footer li a:visited.instagram { 
+background:url(../images/social_media/instagram32.png) no-repeat center center;
+}
+#footer li a:link.twitch, #footer li a:visited.twitch{ 
+background:url(../images/social_media/twitch32.png) no-repeat center center;
+}
+#footer li a:link.youtube, #footer li a:visited.youtube{ 
+background:url(../images/social_media/youtube32.png) no-repeat center center;
+}
+
+#footer li a:hover.facebook, #footer li a:active.facebook, #footer li a:focus.facebook {
+	background:url(../images/social_media/facebook32.png) no-repeat center center;
+}
+#footer li a:hover.twitter, #footer li a:active.twitter, #footer li a:focus.twitter {
+	background:url(../images/social_media/twitter32.png) no-repeat center center;
+}
+#footer li a:hover.linkedin, #footer li a:active.linkedin, #footer li a:focus.linkedin {
+	background:url(../images/social_media/linkedin32.png) no-repeat center center;
+}
+#footer li a:hover.email, #footer li a:active.email, #footer li a:focus.email {
+	background:url(../images/social_media/email32.png) no-repeat center center;
+}
+#footer li a:hover.pinterest, #footer li a:active.pinterest, #footer li a:focus.pinterest {
+	background:url(../images/social_media/pinterest32.png) no-repeat center center;
+}
+#footer li a:hover.instagram, #footer li a:active.instagram, #footer li a:focus.instagram {
+	background:url(../images/social_media/instagram32.png) no-repeat center center;
+}
+#footer li a:hover.youtube, #footer li a:active.youtube, #footer li a:focus.youtube {
+	background:url(../images/social_media/youtube32.png) no-repeat center center;
+}
